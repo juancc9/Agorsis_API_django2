@@ -1,0 +1,27 @@
+Comandos principales 
+npm create vite@latest my-app -- --template react-ts
+
+  npm install
+
+rutas:
+npm install react-router-dom
+npm install @types/react-router-dom
+
+ejecutar
+  npm run dev
+
+
+
+vite.config.ts:(Opcional)
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  server:{
+    host:'0.0.0.0',
+    port:5173,
+  },
+})
