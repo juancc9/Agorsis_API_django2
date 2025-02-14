@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "json.schemas": [
+        
+    ],
+    "python.analysis.extraPaths": ["./apps"]
+}
+
+ejecutar server:
+daphne -p 8000 APIRest.asgi:application
