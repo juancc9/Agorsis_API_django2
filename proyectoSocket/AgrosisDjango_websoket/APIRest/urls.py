@@ -122,4 +122,7 @@ urlpatterns = [
     path('api/', include(Tipo_EspecieRouter.urls)),
     path('api/', include(Tipo_PlagaRouter.urls)),
 
+
+
 ]
+

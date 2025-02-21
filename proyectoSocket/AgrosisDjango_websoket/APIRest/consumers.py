@@ -29,7 +29,7 @@ class ObjectConsumer(AsyncWebsocketConsumer):
     async def nuevo_objeto(self, event):
         # Maneja el evento "nuevo_objeto" enviado al grupo
         message = event['message']
-        
+
         # Envía el mensaje de vuelta al cliente
         await self.send(text_data=json.dumps({
             'message': message

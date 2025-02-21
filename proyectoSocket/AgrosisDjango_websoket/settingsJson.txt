@@ -11,3 +11,9 @@
 
 ejecutar server:
 daphne -p 8000 APIRest.asgi:application
+uvicorn my_project.asgi:application --port 8000
+uvicorn APIRest.asgi:application --port 8000
+
+manejo de archivos estaticos
+python manage.py collectstatic
+

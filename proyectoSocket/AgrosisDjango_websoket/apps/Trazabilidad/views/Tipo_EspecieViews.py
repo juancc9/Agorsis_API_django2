@@ -1,3 +1,4 @@
+# apps/Trazabilidad/views/Tipo_EspecieViews.py
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from ..models.Tipo_Especie import Tipo_Especie

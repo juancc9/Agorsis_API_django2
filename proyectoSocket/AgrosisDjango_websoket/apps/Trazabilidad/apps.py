@@ -7,3 +7,5 @@ class TrazabilidadConfig(AppConfig):
     def ready(self):
         from apps.signaler.TrazabilidadTipoEspecie import signals
         print(signals.MY_CONSTANT)
+
+    

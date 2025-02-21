@@ -5,3 +5,6 @@ class Tipo_EspecieSerializer(ModelSerializer):
     class Meta:
         model = Tipo_Especie
         fields = '__all__'
+
+
+        

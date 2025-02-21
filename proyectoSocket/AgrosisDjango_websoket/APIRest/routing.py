@@ -1,6 +1,6 @@
 from django.urls import re_path
-from .. import consumers
+from apps.signaler.TrazabilidadTipoEspecie.consumers import ObjectConsumer
 
 websocket_urlpatterns = [
-    re_path(r'ws/objects/', consumers.ObjectConsumer.as_asgi()),
+    re_path(r'ws/objects/$', ObjectConsumer.as_asgi()),
 ]
